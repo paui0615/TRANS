@@ -3,8 +3,8 @@ import mapboxgl from '!mapbox-gl';
 import 'mapbox-gl/dist/mapbox-gl.css';
 import './App.css';
 import io from 'socket.io-client';
-import SourceChild from "./Source"
-import Legend from "./Legend"
+import SourceChild from "./component/Source"
+import Legend from "./component/Legend"
 import stationHV from "./Station_HV_Set2.json"
 
 
