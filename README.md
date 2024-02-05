@@ -19,3 +19,10 @@ $ python api/api.py
 In ./ folder:
 $ npm start
 ```
+
+# 4. Web display
+
+# Citations
+- [Controls on Seasonal Variations of Crustal Seismic Velocity in Taiwan Using Single-Station Cross-Component Analysis of Ambient Noise Interferometry. (Feng et al., 2021)](https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2021JB022650)
+- [Constraining S-wave velocity using Rayleigh wave ellipticity from polarization analysis of seismic noise. (Berbellini et al., 2019)](https://academic.oup.com/gji/article/216/3/1817/5222650)
+- [DOP-E Github](https://github.com/berbellini/DOP-E)
