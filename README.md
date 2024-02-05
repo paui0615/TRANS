@@ -1,6 +1,9 @@
 # 1. TRANS (Taiwan Real-time Ambient Noise System)
 ### TRANS is a real-time system to monitor ambient noise data with 40 seismic staions across Taiwan. Aims to analyze and quantify Taiwan’s ambient noise characteristics to monitor corresponding meteorological events, tectonic activities, and anthropogenic activities. This project uses front-end and back-end separate development. The front-end is for web page display and data visualization. It is mainly implemented using `React.js` and receives real-time data from the back-end. The back-end is divided into data pre-processing, data scientific calculation, and real-time data transmission of front-end and back-end. Mainly using `Python` to process seismic data and `Flask` as a lightweight back-end.
 
+# 2. Process flow
+![Process flow.]()
+
 # 2. Backend
 ## Data pre-processing and science
 ### This part of the code has not been released to the public because it is confidential. It mainly uses the python library `seedlink` to receive the seismic real-time raw waveform, and uses `obspy` for waveform pre-processing (including bandpass filtering, resample, taper, etc.). Further estimates the ellipticity, polarization degree and Azimuth. And through data analysis, rose diagrams, source maps and seismic velocity changes are produced.
